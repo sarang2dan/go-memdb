@@ -244,7 +244,7 @@ func main() {
     }
 
     val = reflect.New(typ).Elem()
-    val.Field(0).SetString("@tariqaol.com")
+    val.Field(0).SetString("tariq@aol.com")
     val.Field(1).SetString("Tariq")
     val.Field(2).SetInt(21)
     p = val.Addr().Interface()
